@@ -1,4 +1,4 @@
-module github.com/dachalco/mynewt-newt
+module github.com/dachalco/newt
 
 go 1.13
 
