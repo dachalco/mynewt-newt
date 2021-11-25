@@ -26,12 +26,12 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/spf13/cobra"
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/util"
 )
 
 var NewTypeStr = "pkg"

@@ -22,8 +22,8 @@ package dump
 import (
 	"strconv"
 
-	"mynewt.apache.org/newt/newt/sysinit"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/sysinit"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type SysinitFunc struct {

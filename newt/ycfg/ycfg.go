@@ -25,9 +25,9 @@ import (
 
 	"github.com/spf13/cast"
 
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newt/yaml"
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/util"
+	"github.com/dachalco/mynewt-newt/yaml"
 )
 
 // YAML configuration object.  This is a substitute for a viper configuration

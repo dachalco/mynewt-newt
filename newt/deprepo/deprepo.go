@@ -27,9 +27,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/repo"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/repo"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 // [repo-name] => repo

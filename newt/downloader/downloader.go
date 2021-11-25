@@ -32,8 +32,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/newt/settings"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/settings"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type DownloaderCommitType int

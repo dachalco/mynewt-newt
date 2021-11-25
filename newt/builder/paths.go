@@ -22,10 +22,10 @@ package builder
 import (
 	"path/filepath"
 
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const BUILD_NAME_BOOT = "app/@mcuboot"

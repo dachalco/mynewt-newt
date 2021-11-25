@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"strings"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const (

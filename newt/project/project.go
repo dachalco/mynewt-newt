@@ -28,17 +28,17 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/newt/compat"
-	"mynewt.apache.org/newt/newt/config"
-	"mynewt.apache.org/newt/newt/deprepo"
-	"mynewt.apache.org/newt/newt/downloader"
-	"mynewt.apache.org/newt/newt/install"
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/repo"
-	"mynewt.apache.org/newt/newt/ycfg"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/compat"
+	"github.com/dachalco/mynewt-newt/newt/config"
+	"github.com/dachalco/mynewt-newt/newt/deprepo"
+	"github.com/dachalco/mynewt-newt/newt/downloader"
+	"github.com/dachalco/mynewt-newt/newt/install"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/repo"
+	"github.com/dachalco/mynewt-newt/newt/ycfg"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 var globalProject *Project = nil

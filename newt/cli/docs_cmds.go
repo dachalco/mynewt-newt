@@ -22,8 +22,8 @@ package cli
 import (
 	"os"
 
+	"github.com/dachalco/mynewt-newt/newt/docs"
 	"github.com/spf13/cobra"
-	"mynewt.apache.org/newt/newt/docs"
 )
 
 func docsBuildRunCmd(cmd *cobra.Command, args []string) {

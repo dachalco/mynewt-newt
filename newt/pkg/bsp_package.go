@@ -24,11 +24,11 @@ import (
 	"runtime"
 	"strings"
 
-	"mynewt.apache.org/newt/newt/config"
-	"mynewt.apache.org/newt/newt/flashmap"
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/ycfg"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/config"
+	"github.com/dachalco/mynewt-newt/newt/flashmap"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/ycfg"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const BSP_YAML_FILENAME = "bsp.yml"

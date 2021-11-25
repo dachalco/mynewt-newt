@@ -30,8 +30,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"mynewt.apache.org/newt/newt/symbol"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/symbol"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 /* This is a tricky thing to parse. Right now, I keep all the

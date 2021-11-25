@@ -33,13 +33,13 @@ import (
 	"github.com/apache/mynewt-artifact/image"
 	"github.com/apache/mynewt-artifact/manifest"
 	"github.com/apache/mynewt-artifact/mfg"
-	"mynewt.apache.org/newt/newt/builder"
-	"mynewt.apache.org/newt/newt/flashmap"
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/target"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/newt/flashmap"
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/target"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type MfgBuildTarget struct {
@@ -74,11 +74,11 @@ type MfgBuildMeta struct {
 
 // Can be used to construct an Mfg object.
 type MfgBuilder struct {
-	BasePkg *pkg.LocalPackage
-	Bsp     *pkg.BspPackage
-	Targets []MfgBuildTarget
-	Raws    []MfgBuildRaw
-	Meta    *MfgBuildMeta
+	BasePkg     *pkg.LocalPackage
+	Bsp         *pkg.BspPackage
+	Targets     []MfgBuildTarget
+	Raws        []MfgBuildRaw
+	Meta        *MfgBuildMeta
 	BaseAddress int
 }
 

@@ -24,12 +24,12 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/resolve"
-	"mynewt.apache.org/newt/newt/syscfg"
-	"mynewt.apache.org/newt/newt/toolchain"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/resolve"
+	"github.com/dachalco/mynewt-newt/newt/syscfg"
+	"github.com/dachalco/mynewt-newt/newt/toolchain"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type BuildPackage struct {
@@ -260,7 +260,7 @@ func (bpkg *BuildPackage) publicIncludeDirs(b *Builder) []string {
 		util.OneTimeWarningError(err)
 
 		for _, dir := range inclDirs {
-			incls = append(incls, bp + "/" + dir)
+			incls = append(incls, bp+"/"+dir)
 		}
 	}
 

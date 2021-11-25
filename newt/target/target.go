@@ -25,13 +25,13 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"mynewt.apache.org/newt/newt/config"
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/repo"
-	"mynewt.apache.org/newt/newt/ycfg"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/config"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/repo"
+	"github.com/dachalco/mynewt-newt/newt/ycfg"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const TARGET_FILENAME string = "target.yml"

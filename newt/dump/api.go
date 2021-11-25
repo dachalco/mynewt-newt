@@ -19,7 +19,7 @@
 
 package dump
 
-import "mynewt.apache.org/newt/newt/resolve"
+import "github.com/dachalco/mynewt-newt/newt/resolve"
 
 func newApiMap(res *resolve.Resolution) map[string]string {
 	m := make(map[string]string, len(res.ApiMap))

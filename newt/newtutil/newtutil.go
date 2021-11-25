@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 var NewtVersion = Version{1, 9, 9900}

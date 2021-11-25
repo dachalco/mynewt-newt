@@ -25,14 +25,14 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/dachalco/mynewt-newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/newt/imgprod"
+	"github.com/dachalco/mynewt-newt/newt/manifest"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/target"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/spf13/cobra"
-	"mynewt.apache.org/newt/newt/builder"
-	"mynewt.apache.org/newt/newt/imgprod"
-	"mynewt.apache.org/newt/newt/manifest"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/target"
-	"mynewt.apache.org/newt/util"
 )
 
 const TARGET_TEST_NAME = "unittest"

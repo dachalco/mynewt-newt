@@ -26,10 +26,10 @@ import (
 
 	"github.com/apache/mynewt-artifact/image"
 	"github.com/apache/mynewt-artifact/sec"
-	"mynewt.apache.org/newt/newt/builder"
-	"mynewt.apache.org/newt/newt/manifest"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/newt/manifest"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type ProducedImageV1 struct {

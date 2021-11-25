@@ -26,8 +26,8 @@ import (
 	"sort"
 	"strings"
 
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

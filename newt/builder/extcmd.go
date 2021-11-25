@@ -24,10 +24,10 @@ import (
 	"os"
 	"os/exec"
 
+	"github.com/dachalco/mynewt-newt/newt/stage"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/kballard/go-shellquote"
 	log "github.com/sirupsen/logrus"
-	"mynewt.apache.org/newt/newt/stage"
-	"mynewt.apache.org/newt/util"
 )
 
 // replaceArtifactsIfChanged compares the artifacts just produced (temp

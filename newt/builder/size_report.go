@@ -22,7 +22,7 @@ package builder
 import (
 	"bufio"
 	"fmt"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"os"
 	"os/exec"
 	"strconv"

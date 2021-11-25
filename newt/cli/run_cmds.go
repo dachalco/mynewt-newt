@@ -26,10 +26,10 @@ import (
 
 	"github.com/apache/mynewt-artifact/image"
 	"github.com/apache/mynewt-artifact/sec"
-	"mynewt.apache.org/newt/newt/imgprod"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/imgprod"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 func runRunCmd(cmd *cobra.Command, args []string) {

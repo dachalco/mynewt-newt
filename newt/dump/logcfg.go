@@ -22,8 +22,8 @@ package dump
 import (
 	"strconv"
 
-	"mynewt.apache.org/newt/newt/logcfg"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/logcfg"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type Log struct {

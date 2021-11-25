@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"mynewt.apache.org/newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
 )
 
 type lpkgSorter struct {

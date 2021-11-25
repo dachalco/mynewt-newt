@@ -22,7 +22,7 @@ package dump
 import (
 	"sort"
 
-	"mynewt.apache.org/newt/newt/syscfg"
+	"github.com/dachalco/mynewt-newt/newt/syscfg"
 )
 
 type SyscfgPoint struct {

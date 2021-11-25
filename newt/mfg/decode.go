@@ -25,8 +25,8 @@ package mfg
 import (
 	"github.com/spf13/cast"
 
-	"mynewt.apache.org/newt/newt/ycfg"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/ycfg"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 // Indicates that an element is located at the end of a flash area.

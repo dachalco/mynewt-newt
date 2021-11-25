@@ -61,8 +61,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type CfgRestrictionCode int
@@ -230,7 +230,7 @@ func (r *CfgRestriction) createRangeExpr() string {
 		}
 	}
 
-	return strings.Join(exprOutTokens," || ")
+	return strings.Join(exprOutTokens, " || ")
 }
 
 func (cfg *Cfg) settingViolationText(entry CfgEntry, r CfgRestriction) string {
@@ -298,7 +298,6 @@ func (cfg *Cfg) restrictionMet(
 		}
 		return false
 
-
 	case CFG_RESTRICTION_CODE_RANGE:
 		expr := r.createRangeExpr()
 		if expr == "" {
@@ -349,13 +348,13 @@ func (cfg *Cfg) restrictionMet(
 func createRangeRestriction(baseSetting string, expr string) (CfgRestriction, error) {
 	r := CfgRestriction{
 		BaseSetting: baseSetting,
-		Code: CFG_RESTRICTION_CODE_RANGE,
-		Expr: expr,
-		Ranges: []CfgRestrictionRange{},
+		Code:        CFG_RESTRICTION_CODE_RANGE,
+		Expr:        expr,
+		Ranges:      []CfgRestrictionRange{},
 	}
 
 	exprTokens := strings.Split(expr, ",")
-	for _,token := range exprTokens {
+	for _, token := range exprTokens {
 		rtoken := CfgRestrictionRange{}
 
 		limits := strings.Split(token, "..")

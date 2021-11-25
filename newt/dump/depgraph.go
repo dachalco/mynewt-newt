@@ -22,8 +22,8 @@ package dump
 import (
 	"sort"
 
-	"mynewt.apache.org/newt/newt/builder"
-	"mynewt.apache.org/newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/newt/parse"
 )
 
 type DepGraphEntry struct {

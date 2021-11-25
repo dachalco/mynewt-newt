@@ -24,9 +24,9 @@ import (
 
 	"github.com/apache/mynewt-artifact/image"
 	"github.com/apache/mynewt-artifact/sec"
-	"mynewt.apache.org/newt/newt/builder"
-	"mynewt.apache.org/newt/newt/config"
-	"mynewt.apache.org/newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/newt/config"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
 )
 
 func loadDecodedMfg(basePath string) (DecodedMfg, error) {

@@ -32,8 +32,8 @@ import (
 	"github.com/spf13/cast"
 
 	"github.com/apache/mynewt-artifact/flash"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const HEADER_PATH = "sysflash/sysflash.h"

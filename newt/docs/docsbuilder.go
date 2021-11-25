@@ -24,8 +24,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type DocsBuilder struct {

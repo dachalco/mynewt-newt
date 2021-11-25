@@ -28,12 +28,12 @@ import (
 	"github.com/kardianos/osext"
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/resolve"
-	"mynewt.apache.org/newt/newt/toolchain"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/resolve"
+	"github.com/dachalco/mynewt-newt/newt/toolchain"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 func TestTargetName(testPkgName string) string {

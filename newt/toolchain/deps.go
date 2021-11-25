@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type DepTracker struct {

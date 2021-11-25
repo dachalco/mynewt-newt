@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"io"
 
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/stage"
-	"mynewt.apache.org/newt/newt/syscfg"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/stage"
+	"github.com/dachalco/mynewt-newt/newt/syscfg"
 )
 
 type SysdownCfg struct {

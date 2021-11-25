@@ -26,17 +26,17 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/newt/extcmd"
-	"mynewt.apache.org/newt/newt/flashmap"
-	"mynewt.apache.org/newt/newt/logcfg"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/syscfg"
-	"mynewt.apache.org/newt/newt/sysdown"
-	"mynewt.apache.org/newt/newt/sysinit"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/extcmd"
+	"github.com/dachalco/mynewt-newt/newt/flashmap"
+	"github.com/dachalco/mynewt-newt/newt/logcfg"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/syscfg"
+	"github.com/dachalco/mynewt-newt/newt/sysdown"
+	"github.com/dachalco/mynewt-newt/newt/sysinit"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 // Represents a supplied API.

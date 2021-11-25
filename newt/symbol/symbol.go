@@ -26,7 +26,7 @@ import (
 	"sort"
 	"strings"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type SymbolInfo struct {

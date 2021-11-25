@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"sort"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 // expr     ::= <unary><expr> | "("<expr>")" |

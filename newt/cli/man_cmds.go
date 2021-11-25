@@ -20,8 +20,8 @@
 package cli
 
 import (
+	"github.com/dachalco/mynewt-newt/newt/man"
 	"github.com/spf13/cobra"
-	"mynewt.apache.org/newt/newt/man"
 )
 
 func manBuildRunCmd(cmd *cobra.Command, args []string) {

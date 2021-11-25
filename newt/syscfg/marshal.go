@@ -22,7 +22,7 @@ package syscfg
 import (
 	"encoding/json"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 var cfgSettingNameTypeMap = map[string]CfgSettingType{

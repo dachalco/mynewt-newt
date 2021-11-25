@@ -26,9 +26,9 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/apache/mynewt-artifact/image"
-	"mynewt.apache.org/newt/newt/mfg"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/mfg"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 var baseAddress int

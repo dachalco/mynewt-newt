@@ -25,12 +25,12 @@ import (
 	"sort"
 	"strings"
 
-	"mynewt.apache.org/newt/newt/config"
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/toolchain"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/config"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/toolchain"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 func varsFromPackageType(

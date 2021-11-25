@@ -27,9 +27,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"mynewt.apache.org/newt/newt/downloader"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/downloader"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type templateRepo struct {

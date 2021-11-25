@@ -24,7 +24,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 func valsRunCmd(cmd *cobra.Command, args []string) {

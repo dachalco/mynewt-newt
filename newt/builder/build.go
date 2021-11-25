@@ -29,16 +29,16 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/repo"
-	"mynewt.apache.org/newt/newt/resolve"
-	"mynewt.apache.org/newt/newt/symbol"
-	"mynewt.apache.org/newt/newt/syscfg"
-	"mynewt.apache.org/newt/newt/target"
-	"mynewt.apache.org/newt/newt/toolchain"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/repo"
+	"github.com/dachalco/mynewt-newt/newt/resolve"
+	"github.com/dachalco/mynewt-newt/newt/symbol"
+	"github.com/dachalco/mynewt-newt/newt/syscfg"
+	"github.com/dachalco/mynewt-newt/newt/target"
+	"github.com/dachalco/mynewt-newt/newt/toolchain"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type Builder struct {

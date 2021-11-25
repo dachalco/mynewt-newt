@@ -23,13 +23,13 @@ import (
 	"os"
 	"runtime"
 
+	"github.com/dachalco/mynewt-newt/newt/cli"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/settings"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/shirou/gopsutil/cpu"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"mynewt.apache.org/newt/newt/cli"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/settings"
-	"mynewt.apache.org/newt/util"
 )
 
 var NewtLogLevel log.Level

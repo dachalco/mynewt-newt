@@ -20,8 +20,8 @@
 package val
 
 import (
-	"mynewt.apache.org/newt/newt/syscfg"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/syscfg"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 // Value setting: represents a setting value as read from a YAML configuration

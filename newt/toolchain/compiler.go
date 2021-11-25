@@ -35,11 +35,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/newt/config"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/symbol"
-	"mynewt.apache.org/newt/newt/ycfg"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/config"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/symbol"
+	"github.com/dachalco/mynewt-newt/newt/ycfg"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const COMPILER_FILENAME string = "compiler.yml"
@@ -500,21 +500,21 @@ func (c *Compiler) GenDepsForFile(file string, compilerType int) error {
 	var cmdName string
 	var flags []string
 	switch compilerType {
-        case COMPILER_TYPE_C:
-                cmdName = c.ccPath
-                flags = c.cflagsStrings()
-        case COMPILER_TYPE_ASM:
-                cmdName = c.asPath
+	case COMPILER_TYPE_C:
+		cmdName = c.ccPath
+		flags = c.cflagsStrings()
+	case COMPILER_TYPE_ASM:
+		cmdName = c.asPath
 
-                // Include both the compiler flags and the assembler flags.
-                // XXX: This is not great.  We don't have a way of specifying compiler
-                // flags without also passing them to the assembler.
-                flags = append(c.cflagsStrings(), c.aflagsStrings()...)
-        case COMPILER_TYPE_CPP:
-                cmdName = c.cppPath
-                flags = append(c.cflagsStrings(), c.cxxflagsStrings()...)
-        default:
-                return util.NewNewtError("Unknown compiler type")
+		// Include both the compiler flags and the assembler flags.
+		// XXX: This is not great.  We don't have a way of specifying compiler
+		// flags without also passing them to the assembler.
+		flags = append(c.cflagsStrings(), c.aflagsStrings()...)
+	case COMPILER_TYPE_CPP:
+		cmdName = c.cppPath
+		flags = append(c.cflagsStrings(), c.cxxflagsStrings()...)
+	default:
+		return util.NewNewtError("Unknown compiler type")
 	}
 
 	srcPath := strings.TrimPrefix(file, c.baseDir+"/")

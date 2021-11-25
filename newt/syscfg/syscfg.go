@@ -34,13 +34,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
 
-	"mynewt.apache.org/newt/newt/flashmap"
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/flashmap"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const HEADER_PATH = "syscfg/syscfg.h"
@@ -1403,17 +1403,17 @@ func writeReposInfo(w io.Writer) {
 		r := project.GetProject().Repos()[n]
 
 		if !r.CheckExists() {
-			continue;
+			continue
 		}
 
 		commitHash, err := r.CurrentHash()
 		if err != nil {
-			continue;
+			continue
 		}
 
 		fmt.Fprintf(w, "/*** Repository @%s info */\n", r.Name())
 
-		k := fmt.Sprintf("%s", settingName("REPO_HASH_" + util.CIdentifier(strings.ToUpper(r.Name()))))
+		k := fmt.Sprintf("%s", settingName("REPO_HASH_"+util.CIdentifier(strings.ToUpper(r.Name()))))
 		v := fmt.Sprintf("\"%s", commitHash)
 
 		dirty, err := r.DirtyState()
@@ -1434,10 +1434,10 @@ func writeReposInfo(w io.Writer) {
 		if err != nil || ver == nil {
 			v = "0.0.0"
 		} else {
-			v = ver.String();
+			v = ver.String()
 		}
 
-		k = fmt.Sprintf("%s", settingName("REPO_VERSION_" + util.CIdentifier(strings.ToUpper(r.Name()))))
+		k = fmt.Sprintf("%s", settingName("REPO_VERSION_"+util.CIdentifier(strings.ToUpper(r.Name()))))
 		v = fmt.Sprintf("\"%s\"", v)
 
 		writeDefine(k, v, w)

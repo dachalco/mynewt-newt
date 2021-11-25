@@ -22,7 +22,7 @@ package resolve
 import (
 	"sort"
 
-	"mynewt.apache.org/newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
 )
 
 type rpkgSorter struct {

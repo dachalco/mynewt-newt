@@ -29,13 +29,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mynewt.apache.org/newt/newt/builder"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/resolve"
-	"mynewt.apache.org/newt/newt/syscfg"
-	"mynewt.apache.org/newt/newt/target"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/resolve"
+	"github.com/dachalco/mynewt-newt/newt/syscfg"
+	"github.com/dachalco/mynewt-newt/newt/target"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 var amendDelete bool = false

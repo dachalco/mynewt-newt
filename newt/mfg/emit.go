@@ -32,13 +32,13 @@ import (
 	"github.com/apache/mynewt-artifact/manifest"
 	"github.com/apache/mynewt-artifact/mfg"
 	"github.com/apache/mynewt-artifact/sec"
-	"mynewt.apache.org/newt/newt/builder"
-	"mynewt.apache.org/newt/newt/flashmap"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/target"
-	"mynewt.apache.org/newt/newt/toolchain"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/newt/flashmap"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/target"
+	"github.com/dachalco/mynewt-newt/newt/toolchain"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 // Current manufacturing image binary format version.

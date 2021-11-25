@@ -30,8 +30,8 @@ import (
 	"sort"
 	"strings"
 
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const rootDependencyName = ""

@@ -32,11 +32,11 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
 
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/syscfg"
-	"mynewt.apache.org/newt/newt/val"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/syscfg"
+	"github.com/dachalco/mynewt-newt/newt/val"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const HEADER_PATH = "logcfg/logcfg.h"

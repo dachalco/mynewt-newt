@@ -24,13 +24,13 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/dachalco/mynewt-newt/newt/downloader"
+	"github.com/dachalco/mynewt-newt/newt/interfaces"
+	"github.com/dachalco/mynewt-newt/newt/newtutil"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/repo"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/spf13/cobra"
-	"mynewt.apache.org/newt/newt/downloader"
-	"mynewt.apache.org/newt/newt/interfaces"
-	"mynewt.apache.org/newt/newt/newtutil"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/repo"
-	"mynewt.apache.org/newt/util"
 )
 
 var infoRemote bool

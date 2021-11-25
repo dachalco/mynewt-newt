@@ -23,8 +23,8 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"mynewt.apache.org/newt/newt/builder"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type Report struct {

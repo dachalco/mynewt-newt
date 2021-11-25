@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"sort"
 
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/newt/resolve"
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/newt/resolve"
 )
 
 type DepEntry struct {

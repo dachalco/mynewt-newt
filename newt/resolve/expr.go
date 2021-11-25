@@ -20,10 +20,10 @@
 package resolve
 
 import (
+	"github.com/dachalco/mynewt-newt/newt/parse"
+	"github.com/dachalco/mynewt-newt/newt/ycfg"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/spf13/cast"
-	"mynewt.apache.org/newt/newt/parse"
-	"mynewt.apache.org/newt/newt/ycfg"
-	"mynewt.apache.org/newt/util"
 )
 
 func getExprMapStringSlice(

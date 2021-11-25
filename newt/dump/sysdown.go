@@ -22,8 +22,8 @@ package dump
 import (
 	"strconv"
 
-	"mynewt.apache.org/newt/newt/sysdown"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/sysdown"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type SysdownFunc struct {

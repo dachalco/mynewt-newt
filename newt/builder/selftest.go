@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/resolve"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/resolve"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 func (b *Builder) SelfTestLink(rpkg *resolve.ResolvePackage) error {

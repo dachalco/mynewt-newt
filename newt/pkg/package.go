@@ -19,7 +19,7 @@
 
 package pkg
 
-import "mynewt.apache.org/newt/newt/interfaces"
+import "github.com/dachalco/mynewt-newt/newt/interfaces"
 
 const PACKAGE_FILE_NAME = "pkg.yml"
 const SYSCFG_YAML_FILENAME = "syscfg.yml"

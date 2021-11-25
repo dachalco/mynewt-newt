@@ -23,7 +23,7 @@ import (
 	"fmt"
 
 	"github.com/apache/mynewt-artifact/mfg"
-	"mynewt.apache.org/newt/newt/builder"
+	"github.com/dachalco/mynewt-newt/newt/builder"
 )
 
 // Filename containing a manufacturing image definition.

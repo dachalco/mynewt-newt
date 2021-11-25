@@ -22,8 +22,8 @@ package dump
 import (
 	"strconv"
 
-	"mynewt.apache.org/newt/newt/extcmd"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/extcmd"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type ExtCmdFunc struct {

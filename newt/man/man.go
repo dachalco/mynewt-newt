@@ -25,9 +25,9 @@ import (
 	"path"
 	"path/filepath"
 
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/newt/repo"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/newt/repo"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 const MAN_DOXY_CONF = "man-pages.conf"

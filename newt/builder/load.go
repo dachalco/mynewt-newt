@@ -26,9 +26,9 @@ import (
 	"strings"
 	"syscall"
 
-	"mynewt.apache.org/newt/newt/pkg"
-	"mynewt.apache.org/newt/newt/project"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/newt/pkg"
+	"github.com/dachalco/mynewt-newt/newt/project"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 func (t *TargetBuilder) loadLoader(slot int, extraJtagCmd string, imgFilename string) error {

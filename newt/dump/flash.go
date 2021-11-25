@@ -21,7 +21,7 @@ package dump
 
 import (
 	"github.com/apache/mynewt-artifact/flash"
-	"mynewt.apache.org/newt/newt/flashmap"
+	"github.com/dachalco/mynewt-newt/newt/flashmap"
 )
 
 type FlashMap struct {

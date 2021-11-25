@@ -24,7 +24,7 @@ import (
 	"io"
 	"sort"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 // A chunk of data in the manufacturing image.  Can be a firmware image or a
